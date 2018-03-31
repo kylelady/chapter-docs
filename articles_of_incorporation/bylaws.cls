@@ -130,11 +130,11 @@
 \else
 	\if@constitution
 		\renewcommand\@chaptertitle{Article}
-		\def\@doctype{Constitution Foo}
+		\def\@doctype{Constitution}
 	\else
 		% Bylaws
 		\renewcommand\@chaptertitle{Bylaw}
-		\def\@doctype{Bylaws Foo}
+		\def\@doctype{Bylaws}
 	\fi
 \fi
 \newcommand{\changechaptername}[1]{\renewcommand\@chaptertitle{#1}}
@@ -146,7 +146,7 @@
 \thispagestyle{empty}
  \begin{center}
   \quad\\[1 in]
-{ \bf \LARGE\@orgname COCK \\[1cm] \@doctype}\\ [1cm]
+{ \bf \LARGE\@orgname \\[1cm] \@doctype}\\ [1cm]
 \large\@approval \\[2cm]
 \@orglogo
  \end{center}
