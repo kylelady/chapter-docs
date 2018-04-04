@@ -139,7 +139,7 @@
 \fi
 \newcommand{\changechaptername}[1]{\renewcommand\@chaptertitle{#1}}
 
-
+\newcommand{\titlepara}{}
 \renewcommand{\maketitle}{
 \newpage
  \null
@@ -149,6 +149,8 @@
 { \bf \LARGE\@orgname \\[1cm] \@doctype}\\ [1cm]
 \large\@approval \\[2cm]
 \@orglogo
+%\vspace{2cm}
+\titlepara
  \end{center}
 \newpage
 } 
